@@ -1,0 +1,98 @@
+.faq-heading {
+ font-weight: 400;
+ font-size: 19px;
+ -webkit-transition: text-indent 0.2s;
+ padding: 22px 0;
+ line-height: 26px;
+}
+
+.faq-text {
+ font-weight: 400;
+ width: 95%;
+ margin-bottom: 30px;
+ line-height: 24px;
+ font-size: 18px;
+ position: absolute;
+}
+
+.faq {
+ width: 90%;
+ margin: 0 auto;
+ border-radius: 4px;
+ position: relative;
+ text-align: left;
+ text-transform: capitalize;
+}
+.faq label {
+ display: block;
+ position: relative;
+ overflow: hidden;
+ cursor: pointer;
+ padding-top: 1px;
+ border-top: 1px solid #e1e1e1;
+}
+
+.faq input[type="checkbox"] {
+ display: none;
+}
+
+.faq .faq-arrow {
+ width: 5px;
+ height: 5px;
+ transition: -webkit-transform 0.8s;
+ transition: transform 0.8s;
+ transition: transform 0.8s, -webkit-transform 0.8s;
+ -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ border-top: 2px solid white;
+ border-right: 2px solid white;
+ float: right;
+ position: absolute;
+ top: 30px;
+ right: 30px;
+ -webkit-transform: rotate(45deg);
+ transform: rotate(45deg);
+}
+
+.faq input[type="checkbox"]:checked + label > .faq-arrow {
+ transition: -webkit-transform 0.8s;
+ transition: transform 0.8s;
+ transition: transform 0.8s, -webkit-transform 0.8s;
+ -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ -webkit-transform: rotate(135deg);
+ transform: rotate(135deg);
+}
+.faq input[type="checkbox"]:checked + label {
+ display: block;
+ height: 225px;
+ transition: height 0.8s;
+}
+
+.faq input[type="checkbox"]:not(:checked) + label {
+ display: block;
+ transition: height 0.8s;
+ height: fit-content;
+ position: relative;
+}
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+@media screen and (max-width: 768px){
+ .faq-line {
+    background: #4593A54D;
+    border-radius: 10px;
+    padding: 0 22px;
+    margin: 16px 0;
+ }
+ .faq input[type="checkbox"]:checked + label {
+   height: 300px;
+  }
+  
+}
+@media screen and (max-width: 480px){
+ .faq input[type="checkbox"]:checked + label {
+   height: 400px;
+  }
+  
+}
