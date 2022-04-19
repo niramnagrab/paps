@@ -5,26 +5,26 @@ import twitter from "../asserts/twitter.png"
 import cross from "../asserts/close-menu.png"
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
-  const handleCloseMenu=()=>{
+  const handleCloseMenu = () => {
     setIsOpen(false)
   }
-  const handleOpenMenu=()=>{
+  const handleOpenMenu = () => {
     setIsOpen(true)
     console.log("op")
   }
   return (
     <>
-      <header class="header max">
-        <div class="container">
-          <div class="logonIcon">
-            <div class="logo">
+      <header className="header max">
+        <div className="container">
+          <div className="logonIcon">
+            <div className="logo">
               <img src={logo} alt="" />
             </div>
-            <div class="toggle" onClick={handleOpenMenu}>
-              <i class="fa fa-bars"></i>
+            <div className="toggle" onClick={handleOpenMenu}>
+              <i className="fa fa-bars"></i>
             </div>
           </div>
-          <ul class={`listItems ${isOpen ? "show" : ""}`}>
+          <ul className={`listItems ${isOpen ? "show" : ""}`}>
             <li className="close-menu" onClick={handleCloseMenu}>
               <img src={cross} alt="" />
             </li>
@@ -38,13 +38,12 @@ const Header = () => {
               <a href="#">faq</a>
             </li>
             <li>
-             
-            <div className="mob-link">
-                    <img src={discrod} />
-                    <img src={twitter} />
-                    </div>
+              <div className="mob-link">
+                <img src={discrod} />
+                <img src={twitter} />
+              </div>
 
-              <button class="btn top-btn">getapanda</button>
+              <button className="btn top-btn">getapanda</button>
             </li>
           </ul>
         </div>

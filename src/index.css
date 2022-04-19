@@ -1,11 +1,10 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 body {
-
   background-color: #faf1e8;
 }
 
@@ -20,7 +19,7 @@ body {
   margin: 3.5% auto;
   align-items: center;
 }
-.container{
+.container {
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -49,7 +48,7 @@ body {
 .listItems li {
   list-style: none;
 }
-.mobileRaodmap{
+.mobileRaodmap {
   display: none;
 }
 .listItems li a {
@@ -64,11 +63,11 @@ body {
 .mob-link {
   display: none;
 }
-.mobil-icons{
+.mobil-icons {
   display: none;
 }
 .btn {
-  background-color: #BE4A3B;
+  background-color: #be4a3b;
   border: none;
   border-radius: 8px;
   color: white;
@@ -79,8 +78,6 @@ body {
   margin-right: 0;
   cursor: pointer;
 }
-
-
 
 /* post section starts here */
 .post {
@@ -138,11 +135,10 @@ body {
   max-width: 781px;
 }
 
-
 /* The Lore of Panda section starts here */
 .theLoreOfPanda {
   width: 100%;
-  background-image: url('./component/asserts/Background_City.png');
+  background-image: url("./component/asserts/Background_City.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,9 +164,9 @@ body {
 }
 .leftLore h1 {
   font-size: 49px;
-    text-transform: uppercase;
-    margin-bottom: 5%;
-    line-height: 46px;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+  line-height: 46px;
 }
 
 .leftLore p {
@@ -259,7 +255,7 @@ body {
 }
 .launchPaps {
   text-decoration-line: line-through;
-  color: #F0AA1E;
+  color: #f0aa1e;
 }
 /* Faqs  section starts here */
 .faqs {
@@ -270,7 +266,7 @@ body {
   text-transform: uppercase;
   color: white;
   border-radius: 18px;
-  background-image: url('./component//asserts/faq-bg.png');
+  background-image: url("./component//asserts/faq-bg.png");
   max-width: 1060px;
 }
 .faqs-container {
@@ -278,7 +274,8 @@ body {
   margin: auto;
   border-radius: 19px;
   padding: 11px;
-  box-sizing: border-box;}
+  box-sizing: border-box;
+}
 .faqs-container h1 {
   padding-bottom: 2%;
   line-height: 60px;
@@ -318,23 +315,23 @@ body {
   font-weight: 200;
 }
 /* solona section starts */
-.solana{
+.solana {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.solana p{
-font-weight: 600;
-font-size: 20px;
-line-height: 28px;
-padding-right: 8px;
+.solana p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  padding-right: 8px;
 }
-.solanalogo{
+.solanalogo {
   width: 100%;
   max-width: 162px;
 }
-.solanalogo img{
+.solanalogo img {
   width: 100%;
 }
 /* footer section starts here */
@@ -344,14 +341,14 @@ padding-right: 8px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./component//asserts/Bottom.png');
+  background-image: url("./component//asserts/Bottom.png");
   margin-top: 5%;
   border-radius: 70px 70px 0px 0px;
   box-sizing: border-box;
   padding: 2% 0%;
-border-radius: 48px 48px 0px 0px;
-background-repeat: no-repeat;
-background-size: cover;
+  border-radius: 48px 48px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contactLinks {
   display: flex;
@@ -413,7 +410,7 @@ background-size: cover;
   font-size: 30px;
   font-weight: 700;
 }
-@media screen and (max-width:1060px) {
+@media screen and (max-width: 1060px) {
   .header,
   .leftPostContainer,
   .loreOfPandas,
@@ -421,26 +418,26 @@ background-size: cover;
     width: 90%;
   }
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .btn {
-      margin: 0px 4px;
+    margin: 0px 4px;
   }
 
   .roadmapContainer {
-      padding-bottom: 84px;
+    padding-bottom: 84px;
   }
 }
 .buyOnmegic {
   display: none;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   /* header section starts here */
   .header {
-      width: 95%;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      box-sizing: border-box;
+    width: 95%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
   }
   .mob-link {
     display: block;
@@ -450,9 +447,9 @@ background-size: cover;
     margin: 30px;
   }
   .listItems li a {
-      font-size: 20px;
-      margin: 10px;
-      font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 400;
   }
   .close-menu {
     display: block;
@@ -461,89 +458,89 @@ background-size: cover;
   }
 
   .btn {
-      border-radius: 4px;
-      padding: 6px;
-      font-size: 18px;
-      margin: 0px 10px;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 18px;
+    margin: 0px 10px;
   }
 
   .pandaImage {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    right: auto;
   }
-/* post section starts here */
+  /* post section starts here */
   .post {
-      width: 100%;
-      flex-direction: column;
+    width: 100%;
+    flex-direction: column;
   }
 
   .leftPostContainer {
-      width: 95%;
-      margin: auto;
-      text-align: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
   }
 
   .postImage {
-      width: 70%;
-      margin: auto;
+    width: 70%;
+    margin: auto;
   }
 
   .innerPost h1 {
-      font-size: 30px;
-      margin: 4% 0%;
+    font-size: 30px;
+    margin: 4% 0%;
   }
 
   .innerPost p {
-      font-size: 16px;
-      margin: 4% 0%;
+    font-size: 16px;
+    margin: 4% 0%;
   }
   /* the of the pandas section starts here */
 
   .loreOfPandas {
-      width: 95%;
-      margin: auto;
-      flex-direction: column;
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
   }
 
   .leftLore {
-      width: 100%;
+    width: 100%;
   }
 
   .leftLore h1 {
-      text-align: center;
+    text-align: center;
   }
 
   .leftLore p {
-      text-align: justify;
+    text-align: justify;
   }
   /* roadmap section statts here */
   .leftRoadMap {
-      padding: 0%;
-      align-items: center;
+    padding: 0%;
+    align-items: center;
   }
 
   .rightRoadMap {
-      padding: 5% 0% 5% 16%;
+    padding: 5% 0% 5% 16%;
   }
 
- /* // footer section starts here */
+  /* // footer section starts here */
   .footerContainer {
-      padding: 5% 0%;
+    padding: 5% 0%;
   }
 
   .contactLinks {
-      width: 95%;
+    width: 95%;
   }
 
   .contactLinks li {
-      margin: 0px;
+    margin: 0px;
   }
 
   .faqs {
-      width: 95%;
+    width: 95%;
   }
   .home-text {
     margin-top: 100%;
@@ -560,7 +557,7 @@ background-size: cover;
     width: 235px;
     border-radius: 8px;
     padding: 12px 28px 12px 28px;
-    background: #BE4A3B;
+    background: #be4a3b;
     margin: auto;
     margin-top: 24px;
     font-size: 17px;
@@ -568,7 +565,6 @@ background-size: cover;
     border: none;
     cursor: pointer;
     color: white;
-
   }
   .show {
     /* display: block !important; */
@@ -577,46 +573,44 @@ background-size: cover;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   /* header section starts here  */
   .header {
-      width: 100%;
-      padding: 24px 2.5%;
-      background-color: black;
-      box-sizing: border-box;
-      margin: 0px;
+    width: 100%;
+    padding: 24px 2.5%;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0px;
   }
-  .container{
-      display: flex;
-      justify-content: space-between;
-      border: 2px solid whiite;
-      width: 90%;
-      margin: auto;
-      flex-direction: column;
-      position: relative;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid whiite;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    position: relative;
   }
 
   .logo {
-      width: 36px;
+    width: 36px;
   }
 
   .toggle i {
-      font-size: 20px;
-      color: #faf1e8;
+    font-size: 20px;
+    color: #faf1e8;
   }
 
   .logonIcon {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .toggle {
-      display: block;
+    display: block;
   }
-
- 
 
   .listItems {
     align-items: center;
@@ -633,234 +627,232 @@ background-size: cover;
   }
 
   .listItems li {
-      list-style: none;
-      margin: 2.2% 0%;
-      text-align: center;
+    list-style: none;
+    margin: 2.2% 0%;
+    text-align: center;
   }
   .mobil-icons {
-      display: flex;
+    display: flex;
   }
   /* post section starts here */
   .post {
-      background-color: #010606;
+    background-color: #010606;
   }
   .postContainer {
-      width: 100%;
-      display: flex;
-      flex-direction: column-reverse;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .top-btn{
-      display: none;
+  .top-btn {
+    display: none;
   }
 
   .leftPostContainer {
-      width: 100%;
-      margin: auto;
-      text-align: center;
-      background-color: black;
-      padding: 20% 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    padding: 20% 0;
   }
 
   .rightPostContainer {
-      width: 100%;
-      box-sizing: border-box;
-      background-color: #010606;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 0px;
-      margin: 0px;
-      text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #010606;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
   }
 
   .pandaImage {
-      width: 100%;
-      top: -20%;  
-    }
+    width: 100%;
+    top: -20%;
+  }
 
   .papsImage {
-      padding: 12px 0px 44px 0px;
+    padding: 12px 0px 44px 0px;
   }
 
   .papsBtn {
-      font-weight: bolder;
-      padding: 12px 28px;
+    font-weight: bolder;
+    padding: 12px 28px;
   }
 
   .postImg {
-      display: none;
+    display: none;
   }
 
-
-
   .leftLore {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .leftLore p {
-      text-align: center;
+    text-align: center;
   }
 
   .item {
-      width: 100%;
+    width: 100%;
   }
 
   .contactLinks {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .contactLinks li {
-      margin: 2.5%;
+    margin: 2.5%;
   }
 
   .contactLinks li a {
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
   }
 
   .mobileView {
-      display: flex;
-      text-align: center;
-      margin: auto;
-
+    display: flex;
+    text-align: center;
+    margin: auto;
   }
 
   .papsPlate {
-      display: none;
+    display: none;
   }
 
   .rightLore {
-      display: none;
+    display: none;
   }
 
   .loreOfPandas {
-      width: 100%;
-      max-width: 400px;
-      text-align: center;
-      padding: 52px 0px;
-      box-sizing: border-box;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 52px 0px;
+    box-sizing: border-box;
   }
 
   /* //Roadmap section starts here */
   .roadmap {
-      border: none;
-      box-shadow: none;
-      display: none;
+    border: none;
+    box-shadow: none;
+    display: none;
   }
 
   .mobileRaodmap {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .roadmapHeading {
-      background-color: #010606;
-      width: 100%;
-      text-align: center;
-      padding: 34px 0px;
+    background-color: #010606;
+    width: 100%;
+    text-align: center;
+    padding: 34px 0px;
   }
 
   .roadmapHeading h1 {
-      text-transform: uppercase;
-      font-weight: 800;
-      font-size: 24px;
-      line-height: 26px;
-      color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 26px;
+    color: white;
   }
- .apr{
-  background-color: #391612;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  box-sizing: border-box;
- }
+  .apr {
+    background-color: #391612;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+  }
   .aprimg {
-      width: 100%;
-      max-width: 164px;
-      padding: 18px 0px;
-      box-sizing: border-box;
-      margin: auto;
+    width: 100%;
+    max-width: 164px;
+    padding: 18px 0px;
+    box-sizing: border-box;
+    margin: auto;
   }
-  .aprimg img{
-  width: 100%;
+  .aprimg img {
+    width: 100%;
   }
   .apr ul {
-      display: flex;
-      flex-direction: column ;
-      justify-content: center;
-      text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
   }
-  .apr ul li{
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 22px;
-      color: white;
+  .apr ul li {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
   }
-  .may{
-      background-color: #152C31;
-      padding-left: 66px;
+  .may {
+    background-color: #152c31;
+    padding-left: 66px;
   }
-  .jun{
-      background-color: #49380D;
+  .jun {
+    background-color: #49380d;
   }
   /* FAQS section starts here */
   .faqs {
-      background-color: #faf1e8;
-      width: 100%;
+    background-color: #faf1e8;
+    width: 100%;
   }
   .faqs-container {
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: unset ;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: unset;
   }
-  .questions{
-      background-color: #C6D7D5;
-      margin: 8px 0px;
-      border-radius: 8px;
-      max-width: 340px;
-      padding: 6px;
-      box-sizing: border-box;
+  .questions {
+    background-color: #c6d7d5;
+    margin: 8px 0px;
+    border-radius: 8px;
+    max-width: 340px;
+    padding: 6px;
+    box-sizing: border-box;
   }
-  .question{
-      border:none;
+  .question {
+    border: none;
   }
-  .question h2, .question i {
-      font-size: 16px;
-      line-height: 18px;
-      font-weight: 300;
-      text-align: left;
-      color: black;
+  .question h2,
+  .question i {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+    text-align: left;
+    color: black;
   }
   .answer p {
-      font-size: 16px;
-      color: black;
+    font-size: 16px;
+    color: black;
   }
-.faqs-container h1 {
-  /* padding-bottom: 2%; */
-  color: black;
-}
-/* footer section starts here */
-.footer-logo {
-  width: 100%;
-  max-width: 158px;
-  margin: 48px auto;
-}
+  .faqs-container h1 {
+    /* padding-bottom: 2%; */
+    color: black;
+  }
+  /* footer section starts here */
+  .footer-logo {
+    width: 100%;
+    max-width: 158px;
+    margin: 48px auto;
+  }
 }
 @media screen and (max-width: 480px) {
   .pandaImage {
-    width: 80% !important
+    width: 80% !important;
   }
 }

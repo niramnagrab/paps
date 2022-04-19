@@ -11,19 +11,19 @@ const Footer = () => {
           </div>
           <ul className="contactLinks max">
             <li>
-              <a href="#">Discard</a>{" "}
+              <a href="#">Discard</a>
             </li>
             <li>
-              <a href="#">Twitter</a>{" "}
+              <a href="#">Twitter</a>
             </li>
             <li>
-              <a href="#">Magic</a>{" "}
+              <a href="#">Magic</a>
             </li>
             <li>
-              <a href="#">rarity</a>{" "}
+              <a href="#">rarity</a>
             </li>
             <li>
-              <a href="#">Name of Services</a>{" "}
+              <a href="#">Name of Services</a>
             </li>
           </ul>
         </div>
