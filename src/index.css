@@ -1,0 +1,827 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+}
+
+body {
+
+  background-color: #faf1e8;
+}
+
+/* Header section starts herer */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 3.5% auto;
+  align-items: center;
+}
+.container{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 11;
+}
+.logo {
+  width: 80px;
+}
+.logo img {
+  width: 100%;
+}
+.toggle {
+  display: none;
+}
+.toggle i {
+  font-size: 40px;
+  color: #e17d47;
+}
+.listItems {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.listItems li {
+  list-style: none;
+}
+.mobileRaodmap{
+  display: none;
+}
+.listItems li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 16px;
+}
+.mob-link {
+  display: none;
+}
+.mobil-icons{
+  display: none;
+}
+.btn {
+  background-color: #BE4A3B;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 28px;
+  font-size: 18px;
+  margin: 0px 64px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 0;
+}
+
+
+
+/* post section starts here */
+.post {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0% 0%;
+  position: relative;
+  flex-direction: column;
+}
+.leftPostContainer {
+  width: 90%;
+  box-sizing: border-box;
+  margin: 5% auto;
+}
+.postImage img {
+  width: 100%;
+}
+.innerPost h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 46px;
+  margin: 4% 35% 4% 0%;
+}
+.innerPost p {
+  font-size: 20px;
+  color: black;
+  margin: 2% 52% 4% 0%;
+  line-height: 30px;
+}
+
+.rightPostContainer {
+  width: 40%;
+  box-sizing: border-box;
+  padding-right: 34%;
+  margin-top: 5%;
+}
+.pandaImage {
+  position: absolute;
+  bottom: -6px;
+  right: 5%;
+  width: 50%;
+}
+
+.pandaImage img {
+  width: 100%;
+}
+.postImage {
+  width: 64%;
+}
+
+
+/* The Lore of Panda section starts here */
+.theLoreOfPanda {
+  width: 100%;
+  background-image: url('./component/asserts/Background_City.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  position: relative;
+}
+.loreOfPandas {
+  width: 100%;
+  align-items: flex-start;
+  justify-self: center;
+  display: flex;
+  box-sizing: border-box;
+  color: white;
+  margin: auto;
+  max-width: 1060px;
+  box-sizing: 2px solid;
+  padding-top: 134px;
+}
+.leftLore {
+  width: 50%;
+  padding: 4% 0px;
+  box-sizing: border-box;
+}
+.leftLore h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
+.leftLore p {
+  font-size: 16px;
+}
+.rightLore {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weapons {
+  width: 100%;
+}
+.weapons img {
+  width: 100%;
+}
+.papsPlate {
+  position: absolute;
+  top: -80px;
+  left: 25%;
+}
+/* .roadmap section starts here */
+.roadmap {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #080808;
+  text-transform: uppercase;
+  padding-top: 5%;
+  font-size: 22px;
+  border-top: 2px solid #080808;
+  box-shadow: 0px -84px 40px 0px #080808;
+  position: relative;
+}
+.roadmap h1 {
+  margin: 4% 0%;
+}
+.roadmapContainer {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  background-color: #080808;
+  position: relative;
+  background-image: url(./component/asserts/Group5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-bottom: 190px;
+}
+.leftRoadMap {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding-right: 116px;
+  box-sizing: border-box;
+}
+.card {
+  width: 236px;
+}
+.card img {
+  width: 100%;
+}
+.rightRoadMap ul,
+.card {
+  margin: 0%;
+  padding-bottom: 88px;
+}
+.rightRoadMap {
+  width: 50%;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0% 62px 4%;
+  box-sizing: border-box;
+}
+.rightRoadMap ul li {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+}
+.launchPaps {
+  text-decoration-line: line-through;
+  color: #F0AA1E;
+}
+/* Faqs  section starts here */
+.faqs {
+  width: 100%;
+  margin: 104px auto;
+  background-color: #4e97a8;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 18px;
+  max-width: 1060px;
+}
+.faqs-container {
+  width: 90%;
+  margin: auto;
+  background: #4a96a7;
+  border-radius: 19px;
+  padding: 11px;
+  box-sizing: border-box;}
+.faqs-container h1 {
+  padding-bottom: 2%;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 4px;
+  border-top: 2px solid white;
+}
+.question h2,
+.question i {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+.lastQuestion {
+  border-bottom: 2px solid white;
+}
+.questions.active .answer {
+  max-height: 300px;
+}
+.questions.active .caret {
+  transform: rotate(180deg);
+}
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: transform 2s all;
+}
+.answer p {
+  text-align: justify;
+  font-size: 20px;
+  text-transform: unset;
+  padding-bottom: 2%;
+  font-weight: 200;
+}
+/* solona section starts */
+.solana{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.solana p{
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+padding-right: 8px;
+}
+.solanalogo{
+  width: 100%;
+  max-width: 162px;
+}
+.solanalogo img{
+  width: 100%;
+}
+/* footer section starts here */
+.footerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #35535e;
+  margin-top: 5%;
+  border-radius: 70px 70px 0px 0px;
+  box-sizing: border-box;
+  padding: 2% 0%;
+  box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.49);
+border-radius: 48px 48px 0px 0px;
+}
+.contactLinks {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactLinks li {
+  display: flex;
+  margin: 20px;
+  list-style: none;
+}
+.contactLinks li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.midBoorder {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-logo {
+  width: 100%;
+  max-width: 234px;
+  margin: 134px auto;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+
+.mobileView {
+  display: none;
+}
+.close-menu {
+  display: none;
+}
+
+@media screen and (max-width:1024px) {
+  .btn {
+      margin: 0px 4px;
+  }
+
+  .roadmapContainer {
+      padding-bottom: 84px;
+  }
+}
+.buyOnmegic {
+  display: none;
+}
+@media screen and (max-width:768px) {
+  /* header section starts here */
+  .header {
+      width: 95%;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+  }
+  .mob-link {
+    display: block;
+  }
+  .mob-link img {
+    width: 31px;
+    margin: 30px;
+  }
+  .listItems li a {
+      font-size: 20px;
+      margin: 10px;
+      font-weight: 400;
+  }
+  .close-menu {
+    display: block;
+    padding-top: 70px;
+    margin-left: 84% !important;
+  }
+
+  .btn {
+      border-radius: 4px;
+      padding: 6px;
+      font-size: 18px;
+      margin: 0px 10px;
+  }
+
+  .pandaImage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      right: auto;
+  }
+/* post section starts here */
+  .post {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .leftPostContainer {
+      width: 95%;
+      margin: auto;
+      text-align: center;
+  }
+
+  .postImage {
+      width: 70%;
+      margin: auto;
+  }
+
+  .innerPost h1 {
+      font-size: 30px;
+      margin: 4% 0%;
+  }
+
+  .innerPost p {
+      font-size: 16px;
+      margin: 4% 0%;
+  }
+  /* the of the pandas section starts here */
+
+  .loreOfPandas {
+      width: 95%;
+      margin: auto;
+      flex-direction: column;
+  }
+
+  .leftLore {
+      width: 100%;
+  }
+
+  .leftLore h1 {
+      text-align: center;
+  }
+
+  .leftLore p {
+      text-align: justify;
+  }
+  /* roadmap section statts here */
+  .leftRoadMap {
+      padding: 0%;
+      align-items: center;
+  }
+
+  .rightRoadMap {
+      padding: 5% 0% 5% 16%;
+  }
+
+ /* // footer section starts here */
+  .footerContainer {
+      padding: 5% 0%;
+  }
+
+  .contactLinks {
+      width: 95%;
+  }
+
+  .contactLinks li {
+      margin: 0px;
+  }
+
+  .faqs {
+      width: 95%;
+  }
+  .home-text {
+    margin-top: 100%;
+    background-color: #faf1e8;
+    padding: 12px 80px;
+  }
+  .pandaImage img {
+    position: absolute;
+    top: 33%;
+  }
+  .buyOnmegic {
+    display: block;
+    height: 48px;
+    width: 235px;
+    border-radius: 8px;
+    padding: 12px 28px 12px 28px;
+    background: #BE4A3B;
+    margin: auto;
+    margin-top: 24px;
+    font-size: 17px;
+    font-weight: 800;
+    border: none;
+    color: white;
+
+  }
+  .show {
+    /* display: block !important; */
+    top: 300px !important;
+    transition: top 1s;
+  }
+}
+
+@media screen and (max-width:768px) {
+  /* header section starts here  */
+  .header {
+      width: 100%;
+      padding: 24px 2.5%;
+      background-color: black;
+      box-sizing: border-box;
+      margin: 0px;
+  }
+  .container{
+      display: flex;
+      justify-content: space-between;
+      border: 2px solid whiite;
+      width: 90%;
+      margin: auto;
+      flex-direction: column;
+      position: relative;
+  }
+
+  .logo {
+      width: 36px;
+  }
+
+  .toggle i {
+      font-size: 20px;
+      color: #faf1e8;
+  }
+
+  .logonIcon {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .toggle {
+      display: block;
+  }
+
+ 
+
+  .listItems {
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: -24px;
+    width: 118%;
+    left: -9%;
+    z-index: 1;
+    border-radius: 0 0 34px 34px;
+    transform: translate(0, -100%);
+    transition: top 1s;
+  }
+
+  .listItems li {
+      list-style: none;
+      margin: 2.2% 0%;
+      text-align: center;
+  }
+  .mobil-icons {
+      display: flex;
+  }
+  /* post section starts here */
+  .post {
+      background-color: #010606;
+  }
+  .postContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+  }
+  .top-btn{
+      display: none;
+  }
+
+  .leftPostContainer {
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      background-color: black;
+      padding: 20% 0;
+  }
+
+  .rightPostContainer {
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #010606;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+  }
+
+  .pandaImage {
+      width: 100%;
+      top: -20%;  
+    }
+
+  .papsImage {
+      padding: 12px 0px 44px 0px;
+  }
+
+  .papsBtn {
+      font-weight: bolder;
+      padding: 12px 28px;
+  }
+
+  .postImg {
+      display: none;
+  }
+
+
+
+  .leftLore {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .leftLore p {
+      text-align: center;
+  }
+
+  .item {
+      width: 100%;
+  }
+
+  .contactLinks {
+      flex-direction: column;
+  }
+
+  .contactLinks li {
+      margin: 2.5%;
+  }
+
+  .contactLinks li a {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+  }
+
+  .mobileView {
+      display: flex;
+      text-align: center;
+      margin: auto;
+
+  }
+
+  .papsPlate {
+      display: none;
+  }
+
+  .rightLore {
+      display: none;
+  }
+
+  .loreOfPandas {
+      width: 100%;
+      max-width: 340px;
+      text-align: center;
+      padding: 52px 0px;
+      box-sizing: border-box;
+  }
+
+  /* //Roadmap section starts here */
+  .roadmap {
+      border: none;
+      box-shadow: none;
+      display: none;
+  }
+
+  .mobileRaodmap {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .roadmapHeading {
+      background-color: #010606;
+      width: 100%;
+      text-align: center;
+      padding: 34px 0px;
+  }
+
+  .roadmapHeading h1 {
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 26px;
+      color: white;
+  }
+ .apr{
+  background-color: #391612;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+ }
+  .aprimg {
+      width: 100%;
+      max-width: 164px;
+      padding: 18px 0px;
+      box-sizing: border-box;
+      margin: auto;
+  }
+  .aprimg img{
+  width: 100%;
+  }
+  .apr ul {
+      display: flex;
+      flex-direction: column ;
+      justify-content: center;
+      text-align: left;
+  }
+  .apr ul li{
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 22px;
+      color: white;
+  }
+  .may{
+      background-color: #152C31;
+      padding-left: 66px;
+  }
+  .jun{
+      background-color: #49380D;
+  }
+  /* FAQS section starts here */
+  .faqs {
+      background-color: #faf1e8;
+      width: 100%;
+  }
+  .faqs-container {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: unset ;
+  }
+  .questions{
+      background-color: #C6D7D5;
+      margin: 8px 0px;
+      border-radius: 8px;
+      max-width: 340px;
+      padding: 6px;
+      box-sizing: border-box;
+  }
+  .question{
+      border:none;
+  }
+  .question h2, .question i {
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 300;
+      text-align: left;
+      color: black;
+  }
+  .answer p {
+      font-size: 16px;
+      color: black;
+  }
+.faqs-container h1 {
+  /* padding-bottom: 2%; */
+  color: black;
+}
+/* footer section starts here */
+.footer-logo {
+  width: 100%;
+  max-width: 158px;
+  margin: 48px auto;
+}
+}
+@media screen and (max-width: 480px) {
+  .pandaImage {
+    width: 80% !important
+  }
+}
