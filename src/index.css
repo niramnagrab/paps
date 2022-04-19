@@ -594,6 +594,8 @@ body {
 
   .logo {
     width: 36px;
+    display: flex;
+    align-items: center;
   }
 
   .toggle i {
@@ -784,6 +786,7 @@ body {
   }
   .aprimg img {
     width: 100%;
+    transform: rotate(13deg);
   }
   .apr ul {
     display: flex;
@@ -808,6 +811,7 @@ body {
   .faqs {
     background-color: #faf1e8;
     width: 100%;
+    background-image: unset !important;
   }
   .faqs-container {
     padding: 0;
@@ -854,5 +858,8 @@ body {
 @media screen and (max-width: 480px) {
   .pandaImage {
     width: 80% !important;
+  }
+  .home-text {
+    padding: 12px 20px;
   }
 }
