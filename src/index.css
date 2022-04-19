@@ -255,7 +255,7 @@ body {
 }
 .launchPaps {
   text-decoration-line: line-through;
-  color: #f0aa1e;
+  color: #f0aa1e !important;
 }
 /* Faqs  section starts here */
 .faqs {
@@ -861,5 +861,20 @@ body {
   }
   .home-text {
     padding: 12px 20px;
+  }
+  .postImage {
+    max-width: 235px;
+  }
+  .pandaImage img {
+    top: 38%;
+  }
+  .leftLore {
+    padding: 10px;
+  }
+  .leftLore h1,
+  .innerPost h1 {
+    font-size: 24px;
+    line-height: 25px;
+    margin: 20px 0;
   }
 }

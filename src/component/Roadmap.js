@@ -72,8 +72,9 @@ const RoadMap = () => {
             <img src={Plate3} alt="" />
           </div>
           <ul>
-            <li class="launchPaps">Launch PAPs Landing Page</li>
-            <li> Minting 2,500 PAPs</li>
+            <li>Upgrade Mission Center</li>
+            <li>Launch Job Center </li>
+            <li>Upgrade Supply Store</li>
           </ul>
         </div>
       </section>
