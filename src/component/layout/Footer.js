@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-logo">
             <img src={footerLogo} alt="" />
           </div>
-          <ul className="contactLinks">
+          <ul className="contactLinks max">
             <li>
               <a href="#">Discard</a>{" "}
             </li>

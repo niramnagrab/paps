@@ -9,7 +9,7 @@ const RoadMap = () => {
     <>
       <section class="roadmap">
         <h1>roadmap</h1>
-        <div class="roadmapContainer">
+        <div class="roadmapContainer max">
           <div class="leftRoadMap">
             <div class="card">
               <img src={Plate1} alt="First Plate" />

@@ -15,7 +15,6 @@ const OurStory = () => {
               being one of the last strongholds for humanity.
             </p>
             <br />
-            <br />
 
             <p>
               Fortunately, Scientists have discovered a unique chemical compound
@@ -30,7 +29,6 @@ const OurStory = () => {
               increasingly difficult missions to save what is left of humanity
               with their weapons, armor and a bit of luck.
             </p>
-            <br />
             <br />
             <p>This is their story.</p>
           </div>

@@ -1,17 +1,16 @@
 .faq-heading {
- font-weight: 400;
- font-size: 19px;
- -webkit-transition: text-indent 0.2s;
- padding: 22px 0;
- line-height: 26px;
+    font-weight: 600;
+    font-size: 20px;
+    -webkit-transition: text-indent 0.2s;
+    padding: 22px 0;
+    line-height: 28px;
 }
 
 .faq-text {
  font-weight: 400;
- width: 95%;
  margin-bottom: 30px;
- line-height: 24px;
- font-size: 18px;
+ line-height: 28px;
+ font-size: 20px;
  position: absolute;
 }
 

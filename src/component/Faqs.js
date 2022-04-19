@@ -22,7 +22,7 @@ const FAQ = [
 const Faqs = () => {
   return (
     <>
-      <section class="faqs">
+      <section class="faqs max">
         <div class="faqs-container">
           <h1>faqs</h1>
           <div class="faq">
