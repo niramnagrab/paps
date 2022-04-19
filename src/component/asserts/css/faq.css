@@ -83,9 +83,14 @@
     border-radius: 10px;
     padding: 0 22px;
     margin: 16px 0;
+    color: black;
   }
   .faq input[type="checkbox"]:checked + label {
     height: 300px;
+  }
+  .faq .faq-arrow {
+    border-top: 2px solid black;
+  border-right: 2px solid black;
   }
 }
 @media screen and (max-width: 480px) {
