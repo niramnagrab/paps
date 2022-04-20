@@ -18,6 +18,9 @@ const Home = () => {
             <img className="desktopImg" src={Group} alt="" />
           </div>
           <button className="buyOnmegic">Buy on Magic Eden</button>
+          <div className="pandaImage">
+          <img src={Panda} alt="Panda Image" />
+        </div>
           <div className="home-text">
           <h1>2,500 pandas to take over the post apocalyptic city</h1>
           <p>
@@ -30,10 +33,6 @@ const Home = () => {
             earned from completing team missions against the forces of nature.{" "}
           </p>
           </div>
-        </div>
-
-        <div className="pandaImage">
-          <img src={Panda} alt="Panda Image" />
         </div>
       </section>
       <OurStory />
