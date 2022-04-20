@@ -6,25 +6,26 @@ import Plate3 from "./asserts/Plate3.png"
 const RoadMap = () => {
 
   return (
-    <>
-      <section class="roadmap">
+    <div id="roadmap">
+      <section className="roadmap">
         <h1>roadmap</h1>
-        <div class="roadmapContainer max">
-          <div class="leftRoadMap">
-            <div class="card">
+        <span className="yellow-dot" />
+        <div className="roadmapContainer max">
+          <div className="leftRoadMap">
+            <div className="card">
               <img src={Plate1} alt="First Plate" />
             </div>
-            <div class="card">
+            <div className="card">
               <img src={Plate2} alt="Second Plate" />
             </div>
-            <div class="card">
+            <div className="card">
               <img src={Plate3} alt="Third Plate" />
             </div>
           </div>
 
-          <div class="rightRoadMap">
+          <div className="rightRoadMap">
             <ul>
-              <li class="launchPaps">Launch PAPs Landing Page </li>
+              <li className="launchPaps">Launch PAPs Landing Page </li>
               <li>Minting 2,500 PAPs</li>
             </ul>
             <ul>
@@ -42,22 +43,22 @@ const RoadMap = () => {
         </div>
       </section>
 
-      <section class="mobileRaodmap">
-        <div class="roadmapHeading">
+      <section className="mobileRaodmap">
+        <div className="roadmapHeading">
           <h1>roadmap</h1>
         </div>
 
-        <div class="apr">
-          <div class="aprimg">
+        <div className="apr">
+          <div className="aprimg">
             <img src={Plate1} alt="" />
           </div>
           <ul>
-            <li class="launchPaps">Launch PAPs Landing Page</li>
+            <li className="launchPaps">Launch PAPs Landing Page</li>
             <li> Minting 2,500 PAPs</li>
           </ul>
         </div>
-        <div class="apr may">
-          <div class="aprimg">
+        <div className="apr may">
+          <div className="aprimg">
             <img src={Plate2} alt="" />
           </div>
           <ul>
@@ -67,8 +68,8 @@ const RoadMap = () => {
             <li> Launch Mission Center</li>
           </ul>
         </div>
-        <div class="apr jun">
-          <div class="aprimg">
+        <div className="apr jun">
+          <div className="aprimg">
             <img src={Plate3} alt="" />
           </div>
           <ul>
@@ -78,8 +79,7 @@ const RoadMap = () => {
           </ul>
         </div>
       </section>
-
-    </>
+    </div>
   )
 }
 
