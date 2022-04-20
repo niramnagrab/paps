@@ -1,4 +1,5 @@
 import Group from "./asserts/Group.png"
+import Mpaps from "./asserts/mpaps.png"
 import Panda from "./asserts/Panda.png"
 import OurStory from "./Ourstory"
 import RoadMap from "./Roadmap"
@@ -13,7 +14,8 @@ const Home = () => {
       <section className="post max">
         <div className=" leftPostContainer innerPost">
           <div className="postImage">
-            <img src={Group} alt="" />
+            <img className="mobileImg" src={Mpaps} alt="" />
+            <img className="desktopImg" src={Group} alt="" />
           </div>
           <button className="buyOnmegic">Buy on Magic Eden</button>
           <div className="home-text">

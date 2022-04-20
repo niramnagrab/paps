@@ -62,7 +62,7 @@
 }
 .faq input[type="checkbox"]:checked + label {
   display: block;
-  height: 225px;
+  height: fit-content;
   transition: height 0.8s;
 }
 
@@ -73,28 +73,30 @@
   position: relative;
 }
 
+.faq input[type="checkbox"]:checked + label .faq-text {
+  position: relative !important;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
   .faq-line {
-    background: #4593a54d;
+    background-image: url('../mfaq-bg.png');
     border-radius: 10px;
     padding: 0 22px;
     margin: 16px 0;
     color: black;
   }
-  .faq input[type="checkbox"]:checked + label {
-    height: 300px;
-  }
+ 
   .faq .faq-arrow {
     border-top: 2px solid black;
   border-right: 2px solid black;
   }
 }
 @media screen and (max-width: 480px) {
-  .faq input[type="checkbox"]:checked + label {
-    height: 400px;
+  .faq {
+    width: 100%;
   }
 }
