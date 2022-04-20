@@ -127,10 +127,10 @@ body {
   margin-top: 5%;
 }
 .pandaImage {
+  width: 54%;
   position: absolute;
-  bottom: -6px;
-  right: 5%;
-  width: 50%;
+  right: 0;
+  bottom: -4px;
 }
 
 .pandaImage img {
@@ -497,11 +497,8 @@ body {
     display: none;
   }
   .pandaImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: unset !important;
     width: 100%;
-    right: auto;
   }
   /* post section starts here */
   .post {
@@ -579,13 +576,8 @@ body {
     width: 95%;
   }
   .home-text {
-    margin-top: 100%;
     background-color: #faf1e8;
     padding: 12px 80px;
-  }
-  .pandaImage img {
-    position: absolute;
-    top: 33%;
   }
   .buyOnmegic {
     display: block;
@@ -708,7 +700,6 @@ body {
 
   .pandaImage {
     width: 100%;
-    top: -20%;
   }
 
   .papsImage {
@@ -884,7 +875,6 @@ body {
     color: black;
   }
   .faqs-container h1 {
-    /* padding-bottom: 2%; */
     color: black;
   }
   /* footer section starts here */
@@ -895,10 +885,6 @@ body {
   }
 }
 @media screen and (max-width: 480px) {
-  .pandaImage {
-    transform: translate(0, 0);
-    top: -220px;
-  }
   .home-text {
     padding: 12px 30px;
   }
@@ -917,5 +903,8 @@ body {
   }
   .m-roadmap {
     max-width: 330px;
+  }
+  .faq .faq-arrow {
+    right: 0;
   }
 }
