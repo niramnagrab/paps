@@ -1,5 +1,5 @@
 import Group from "./asserts/Group.png"
-import Mpaps from "./asserts/mpaps.png"
+import Mpaps from "./asserts/mpaps.svg"
 import Panda from "./asserts/Panda.png"
 import OurStory from "./Ourstory"
 import RoadMap from "./Roadmap"
