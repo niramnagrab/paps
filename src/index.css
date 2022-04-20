@@ -99,6 +99,12 @@ body {
 .postImage img {
   width: 100%;
 }
+.mobileImg {
+  display: none;
+}
+.desktopImg {
+  display: block;
+}
 .innerPost h1 {
   font-size: 39px;
   text-transform: uppercase;
@@ -280,7 +286,7 @@ body {
 /* Faqs  section starts here */
 .faqs {
   width: 100%;
-  margin: 104px auto;
+  margin: 45px auto;
   background-color: #4e97a8;
   text-align: center;
   text-transform: uppercase;
@@ -417,6 +423,7 @@ body {
   margin: auto;
   justify-content: center;
   align-items: center;
+  margin-bottom: 63px;
 }
 
 .solana-logo p {
@@ -483,7 +490,12 @@ body {
     font-size: 18px;
     margin: 0px 10px;
   }
-
+  .mobileImg {
+    display: block;
+  }
+  .desktopImg {
+    display: none;
+  }
   .pandaImage {
     display: flex;
     justify-content: center;
@@ -531,10 +543,14 @@ body {
 
   .leftLore h1 {
     text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    width: 200px;
   }
 
   .leftLore p {
     text-align: justify;
+    font-size: 16px;
   }
   /* roadmap section statts here */
   .leftRoadMap {
@@ -589,7 +605,7 @@ body {
   .show {
     /* display: block !important; */
     top: 300px !important;
-    transition: top 1s;
+    transition: top 0.5s;
   }
 }
 
@@ -645,7 +661,7 @@ body {
     z-index: 1;
     border-radius: 0 0 34px 34px;
     transform: translate(0, -100%);
-    transition: top 1s;
+    transition: top 0.5s;
   }
 
   .listItems li {
@@ -753,10 +769,11 @@ body {
 
   .loreOfPandas {
     width: 100%;
-    max-width: 400px;
     text-align: center;
-    padding: 52px 0px;
+    padding: 0px 30px;
     box-sizing: border-box;
+    box-shadow: inset -3px -69px 53px -18px black;
+    padding-bottom: 46px;
   }
 
   /* //Roadmap section starts here */
@@ -826,12 +843,14 @@ body {
   }
   .jun {
     background-color: #49380d;
+    box-shadow: 0 35px 16px 12px #49380d;
   }
   /* FAQS section starts here */
   .faqs {
     background-color: #faf1e8;
     width: 100%;
     background-image: unset !important;
+    padding-top: 49px;
   }
   .faqs-container {
     padding: 0;
@@ -877,16 +896,17 @@ body {
 }
 @media screen and (max-width: 480px) {
   .pandaImage {
-    width: 80% !important;
+    transform: translate(0, 0);
+    top: -220px;
   }
   .home-text {
-    padding: 12px 20px;
+    padding: 12px 30px;
   }
   .postImage {
     max-width: 235px;
   }
   .pandaImage img {
-    top: 38%;
+    /* top: 38%; */
   }
   .leftLore {
     padding: 10px;
