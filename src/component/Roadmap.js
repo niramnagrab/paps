@@ -49,6 +49,7 @@ const RoadMap = () => {
         </div>
 
         <div className="apr">
+        <div className="m-roadmap">
           <div className="aprimg">
             <img src={Plate1} alt="" />
           </div>
@@ -56,8 +57,10 @@ const RoadMap = () => {
             <li className="launchPaps">Launch PAPs Landing Page</li>
             <li> Minting 2,500 PAPs</li>
           </ul>
+          </div>
         </div>
         <div className="apr may">
+        <div className="m-roadmap">
           <div className="aprimg">
             <img src={Plate2} alt="" />
           </div>
@@ -67,8 +70,10 @@ const RoadMap = () => {
             <li>Launch Supply Store for Weapon Entanglement</li>
             <li> Launch Mission Center</li>
           </ul>
+          </div>
         </div>
         <div className="apr jun">
+          <div className="m-roadmap">
           <div className="aprimg">
             <img src={Plate3} alt="" />
           </div>
@@ -77,6 +82,7 @@ const RoadMap = () => {
             <li>Launch Job Center </li>
             <li>Upgrade Supply Store</li>
           </ul>
+          </div>
         </div>
       </section>
     </div>
