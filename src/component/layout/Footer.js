@@ -23,7 +23,7 @@ const Footer = () => {
               <a href="#">rarity</a>
             </li>
             <li>
-              <a href="#">Name of Services</a>
+              <a href="#">Rarity (Coming Soon)</a>
             </li>
           </ul>
         </div>

@@ -239,6 +239,25 @@ body {
   margin: 0%;
   padding-bottom: 88px;
 }
+.yellow-dot {
+  width: 16px;
+  height: 16px;
+  background: #FCCE75;
+  position: absolute;
+  z-index: 11;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.yellow-dot::before {
+  content: "";
+  width: 8px;
+  height: 16px;
+  position: absolute;
+  background-color: white;
+  left: 20%;
+}
 .rightRoadMap {
   width: 50%;
   text-align: start;
@@ -247,6 +266,7 @@ body {
   flex-direction: column;
   padding: 0% 62px 4%;
   box-sizing: border-box;
+  text-transform: initial;
 }
 .rightRoadMap ul li {
   font-weight: 700;
@@ -617,11 +637,11 @@ body {
   .listItems {
     align-items: center;
     flex-direction: column;
-    background-color: white;
-    position: absolute;
+    background-color: #faf1e8;
+    position: fixed;
     top: -24px;
-    width: 118%;
-    left: -9%;
+    width: 100%;
+    left: 0;
     z-index: 1;
     border-radius: 0 0 34px 34px;
     transform: translate(0, -100%);

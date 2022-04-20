@@ -5,7 +5,7 @@ import Paps_Plate from "./asserts/PapsPlate.png"
 const OurStory = () => {
   return (
     <>
-      <section className="theLoreOfPanda">
+      <section className="theLoreOfPanda" id="our-story">
         <div className="loreOfPandas">
           <div className="leftLore">
             <h1>THE LORE OF THE PANDAS</h1>
