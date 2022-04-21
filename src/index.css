@@ -59,6 +59,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   line-height: 16px;
+  cursor: pointer;
 }
 .mob-link {
   display: none;
@@ -77,6 +78,9 @@ body {
   font-weight: bold;
   margin-right: 0;
   cursor: pointer;
+}
+.btn:hover {
+  opacity: 75%;
 }
 
 /* post section starts here */
@@ -821,6 +825,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    max-width: 278px;
   }
   .apr ul li {
     font-weight: 700;
@@ -830,7 +835,6 @@ body {
   }
   .may {
     background-color: #152c31;
-    padding-left: 66px;
   }
   .jun {
     background-color: #49380d;
