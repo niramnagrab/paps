@@ -1,5 +1,5 @@
 import React from "react"
-import Weapons from "./asserts/Weapons.svg"
+import Weapons from "./asserts/weapon2.png"
 import Paps_Plate from "./asserts/PapsPlate.png"
 
 const OurStory = () => {
