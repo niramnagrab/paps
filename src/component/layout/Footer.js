@@ -14,7 +14,7 @@ const Footer = () => {
               <a href="#">Discard</a>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <a href="https://twitter.com/PAPs2202" target="_blanck">Twitter</a>
             </li>
             <li>
               <a href="#">Magic</a>

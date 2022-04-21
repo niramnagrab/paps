@@ -30,7 +30,7 @@ const Faqs = () => {
               return (
                 <div key={key} className="faq-line">
                   <input id={`faq-${key}`} type="checkbox" />
-                  <label for={`faq-${key}`}>
+                  <label for={`faq-${key}`} >
                     <p class="faq-heading">{item.heading}</p>
                     <div class="faq-arrow"></div>
                     <p class="faq-text">{item.text}</p>

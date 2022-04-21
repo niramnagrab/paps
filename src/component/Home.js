@@ -1,4 +1,4 @@
-import Group from "./asserts/Group.png"
+import Group from "./asserts/dpaps.svg"
 import Mpaps from "./asserts/mpaps.svg"
 import Panda from "./asserts/Panda.png"
 import OurStory from "./Ourstory"

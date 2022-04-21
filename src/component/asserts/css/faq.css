@@ -29,6 +29,7 @@
   cursor: pointer;
   padding-top: 1px;
   border-top: 1px solid #e1e1e1;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .faq input[type="checkbox"] {
@@ -60,6 +61,7 @@
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
 }
+
 .faq input[type="checkbox"]:checked + label {
   display: block;
   height: fit-content;
