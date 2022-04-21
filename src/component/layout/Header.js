@@ -43,9 +43,8 @@ const Header = () => {
             <li>
               <div className="mob-link">
                 <img src={discrod} />
-                <img src={twitter} />
+                <a href="https://twitter.com/PAPs2202" target="_blanck"><img src={twitter} /></a>
               </div>
-
               <button className="btn top-btn">Get Started</button>
             </li>
           </ul>
