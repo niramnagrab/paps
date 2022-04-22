@@ -11,13 +11,13 @@ const Footer = () => {
           </div>
           <ul className="contactLinks max">
             <li>
-              <a href="#">Discard</a>
+              <a href="#">Discord</a>
             </li>
             <li>
               <a href="https://twitter.com/PAPs2202" target="_blanck">Twitter</a>
             </li>
             <li>
-              <a href="#">Magic</a>
+              <a href="#">Magic Eden</a>
             </li>
             <li>
               <a href="#">rarity</a>

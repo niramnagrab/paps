@@ -1,5 +1,5 @@
 import React from "react"
-import Weapons from "./asserts/weapon2.png"
+import Weapons from "./asserts/Weapons-2.png"
 import Paps_Plate from "./asserts/PapsPlate.png"
 
 const OurStory = () => {
@@ -33,14 +33,15 @@ const OurStory = () => {
             <p>This is their story.</p>
           </div>
           <div className="rightLore">
-            <div className="weapons">
-              <img src={Weapons} alt="" />
-            </div>
+          
           </div>
         </div>
         <div className="papsPlate">
           <img src={Paps_Plate} alt="" />
         </div>
+          <div className="weapons">
+              <img src={Weapons} alt="" />
+            </div>
       </section>
     </>
   )

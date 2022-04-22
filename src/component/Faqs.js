@@ -1,5 +1,6 @@
 import React from "react"
 import "../component/asserts/css/faq.css"
+import { DownArrow } from "@styled-icons/boxicons-solid/DownArrow"
 
 const FAQ = [
   {
@@ -24,15 +25,19 @@ const Faqs = () => {
     <>
       <section class="faqs max" id="faq">
         <div class="faqs-container">
-          <h1>faqs</h1>
+          <h1>faq</h1>
           <div class="faq">
             {FAQ.map((item, key) => {
               return (
                 <div key={key} className="faq-line">
                   <input id={`faq-${key}`} type="checkbox" />
-                  <label for={`faq-${key}`} >
-                    <p class="faq-heading">{item.heading}</p>
-                    <div class="faq-arrow"></div>
+                  <label for={`faq-${key}`}>
+                    <span className="question-arrow">
+                      <p class="faq-heading">{item.heading}</p>
+                      <div className="down-arrow">
+                        <DownArrow />{" "}
+                      </div>
+                    </span>
                     <p class="faq-text">{item.text}</p>
                   </label>
                 </div>
