@@ -45,7 +45,7 @@ const Header = () => {
                 <img src={discrod} />
                 <a href="https://twitter.com/PAPs2202" target="_blanck"><img src={twitter} /></a>
               </div>
-              <button className="btn top-btn">Get Started</button>
+              <button className="btn top-btn">Coming soon</button>
             </li>
           </ul>
         </div>

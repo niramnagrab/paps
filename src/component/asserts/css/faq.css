@@ -1,16 +1,16 @@
 .faq-heading {
-  font-weight: 600;
-  font-size: 20px;
-  -webkit-transition: text-indent 0.2s;
-  padding: 22px 0;
-  line-height: 28px;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 14px 0;
+  line-height: 17px;
+  font-family: "Epilogue Regular";
 }
 
 .faq-text {
   font-weight: 400;
   margin-bottom: 30px;
-  line-height: 28px;
-  font-size: 20px;
+  line-height: 20px;
+  font-size: 16px;
   position: absolute;
 }
 
@@ -35,31 +35,16 @@
 .faq input[type="checkbox"] {
   display: none;
 }
-
-.faq .faq-arrow {
-  width: 5px;
-  height: 5px;
-  transition: -webkit-transform 0.8s;
-  transition: transform 0.8s;
-  transition: transform 0.8s, -webkit-transform 0.8s;
-  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  border-top: 2px solid white;
-  border-right: 2px solid white;
-  float: right;
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+.question-arrow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.faq input[type="checkbox"]:checked + label > .faq-arrow {
-  transition: -webkit-transform 0.8s;
-  transition: transform 0.8s;
-  transition: transform 0.8s, -webkit-transform 0.8s;
-  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
+.down-arrow svg {
+  width: 18px;
+  height: 18px;
 }
 
 .faq input[type="checkbox"]:checked + label {
@@ -79,22 +64,16 @@
   position: relative !important;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
 
 @media screen and (max-width: 768px) {
   .faq-line {
-    background-image: url('../mfaq-bg.png');
+    background-image: url('../halftone.png');
+    background-size: cover;
     border-radius: 10px;
+    background-color: #c6d7d5;
     padding: 0 22px;
     margin: 16px 0;
     color: black;
-  }
- 
-  .faq .faq-arrow {
-    border-top: 2px solid black;
-  border-right: 2px solid black;
   }
 }
 @media screen and (max-width: 480px) {
