@@ -20,9 +20,6 @@ const Footer = () => {
               <a href="#">Magic Eden</a>
             </li>
             <li>
-              <a href="#">rarity</a>
-            </li>
-            <li>
               <a href="#">Rarity (Coming Soon)</a>
             </li>
           </ul>
