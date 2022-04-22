@@ -25,11 +25,11 @@ const RoadMap = () => {
 
           <div className="rightRoadMap">
             <ul>
-              <li className="launchPaps">Launch PAPs Landing Page </li>
-              <li>Minting 2,500 PAPs</li>
+              <li className="launchPaps">Launch PAPS Landing Page </li>
+              <li>Minting 2,500 PAPS</li>
             </ul>
             <ul>
-              <li>Launch Training Camp for PAPs </li>
+              <li>Launch Training Camp for PAPS </li>
               <li>Offer $BAMBOO Token Rewards</li>
               <li>Launch Supply Store for Weapon Entanglement</li>
               <li>Launch Mission Center</li>
@@ -54,8 +54,8 @@ const RoadMap = () => {
             <img src={Plate1} alt="" />
           </div>
           <ul>
-            <li className="launchPaps">Launch PAPs Landing Page</li>
-            <li> Minting 2,500 PAPs</li>
+            <li className="launchPaps">Launch PAPS Landing Page</li>
+            <li> Minting 2,500 PAPS</li>
           </ul>
           </div>
         </div>
@@ -65,7 +65,7 @@ const RoadMap = () => {
             <img src={Plate2} alt="" />
           </div>
           <ul>
-            <li> Launch Training Camp for PAPs</li>
+            <li> Launch Training Camp for PAPS</li>
             <li> Offer $BAMBOO Token Rewards</li>
             <li>Launch Supply Store for Weapon Entanglement</li>
             <li> Launch Mission Center</li>

@@ -11,8 +11,8 @@ const Home = () => {
 
   return (
     <>
-      <section className="post max">
-        <div className=" leftPostContainer innerPost">
+      <section className="post ">
+        <div className=" leftPostContainer max innerPost">
           <div className="postImage">
             <img className="mobileImg" src={Mpaps} alt="" />
             <img className="desktopImg" src={Group} alt="" />
