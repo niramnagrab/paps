@@ -1,5 +1,5 @@
 .faq-heading {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   padding: 14px 0;
   line-height: 17px;
@@ -64,10 +64,9 @@
   position: relative !important;
 }
 
-
 @media screen and (max-width: 768px) {
   .faq-line {
-    background-image: url('../halftone.png');
+    background-image: url("../halftone.png");
     background-size: cover;
     border-radius: 10px;
     background-color: #c6d7d5;
