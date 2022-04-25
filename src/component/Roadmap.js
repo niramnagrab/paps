@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import Plate1 from "./asserts/Plate1.png"
 import Plate2 from "./asserts/Plate2.png"
 import Plate3 from "./asserts/Plate3.png"
@@ -9,8 +9,8 @@ const RoadMap = () => {
     <div id="roadmap">
       <section className="roadmap">
         <h1>roadmap</h1>
-        <span className="yellow-dot" />
         <div className="roadmapContainer max">
+        <span className="yellow-dot" id='scroll-dot' />
           <div className="leftRoadMap">
             <div className="card">
               <img src={Plate1} alt="First Plate" />
