@@ -6,6 +6,10 @@
   font-family: "Epilogue SemiBold";
   src: url(./component/asserts/font/epilogue-2-cufonfonts/Epilogue-SemiBold.ttf);
 }
+@font-face {
+  font-family: "Epilogue Bold";
+  src: url(./component/asserts/font/epilogue-2-cufonfonts/Epilogue-Black.ttf);
+}
 
 * {
   padding: 0;
@@ -99,6 +103,7 @@ body {
 .headContainer {
   background-image: url("./component/asserts/Texture.png");
   background-repeat: no-repeat;
+  background-position: top;
 }
 
 /* post section starts here */
@@ -111,12 +116,12 @@ body {
   box-sizing: border-box;
   padding: 0% 0%;
   flex-direction: column;
+  position: relative;
 }
 .leftPostContainer {
   width: 100%;
   box-sizing: border-box;
   margin: 5% auto;
-  position: relative;
 }
 .postImage img {
   width: 100%;
@@ -149,10 +154,12 @@ body {
   margin-top: 5%;
 }
 .pandaImage {
-  width: 54%;
+  width: 100%;
+  max-width: 640px;
   position: absolute;
-  right: 0;
-  bottom: -4px;
+  bottom: 0px;
+  left: 45%;
+  display: flex;
 }
 
 .pandaImage img {
@@ -194,6 +201,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 5%;
   line-height: 46px;
+  font-family: "Epilogue Bold";
 }
 
 .leftLore p {
@@ -288,7 +296,6 @@ body {
   width: 8px;
   height: 16px;
   position: absolute;
-  background-color: white;
   left: 20%;
 }
 .rightRoadMap {

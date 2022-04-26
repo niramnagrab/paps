@@ -4,7 +4,7 @@ import Panda from "./asserts/Panda.png"
 import OurStory from "./Ourstory"
 import RoadMap from "./Roadmap"
 import Faqs from "./Faqs"
-import solana from "./asserts/solana-logo.png"
+import solana from "./asserts/solana.svg"
 
 
 const Home = () => {
@@ -39,9 +39,7 @@ const Home = () => {
       <RoadMap />
       <Faqs />
       <div className="solana-logo">
-        <p>Powered by</p>
          <img src={solana} alt="" />
-         <span>Solana</span>
         </div>
     </>
   )
