@@ -17,7 +17,7 @@
 }
 
 h1 {
-  font-family: "Epilogue SemiBold";
+  font-family: Lexend;
 }
 
 body {
@@ -201,7 +201,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 5%;
   line-height: 46px;
-  font-family: "Epilogue Bold";
+  font-family: Lexend;
 }
 
 .leftLore p {
@@ -246,6 +246,7 @@ body {
 }
 .roadmap h1 {
   margin: 4% 0%;
+  font-size: 49px;
 }
 .roadmapContainer {
   width: 100%;
@@ -257,7 +258,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  padding-bottom: 190px;
+  padding-bottom: 227px;
 }
 .leftRoadMap {
   width: 50%;
@@ -307,6 +308,8 @@ body {
   padding: 0% 62px 4%;
   box-sizing: border-box;
   text-transform: initial;
+  font-family: Lexend;
+  font-size: 25px;
 }
 .rightRoadMap ul li {
   font-weight: 700;
@@ -316,6 +319,9 @@ body {
 .launchPaps {
   text-decoration-line: line-through;
   color: #f0aa1e !important;
+  font-family: Lexend;
+  font-size: 25px;
+  font-weight: bold;
 }
 /* Faqs  section starts here */
 .faqs {
@@ -388,6 +394,7 @@ body {
   width: 80%;
   justify-content: space-between;
   align-items: center;
+  font-family: "Epilogue SemiBold";
 }
 .contactLinks li {
   display: flex;
