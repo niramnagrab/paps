@@ -2,14 +2,15 @@
   font-weight: 600;
   font-size: 20px;
   padding: 14px 0;
-  line-height: 17px;
+  line-height: 28px;
   font-family: "Epilogue SemiBold";
+  text-transform: none;
 }
 
 .faq-text {
   font-weight: 400;
   margin-bottom: 30px;
-  line-height: 20px;
+  line-height: 28px;
   font-size: 20px;
   position: absolute;
 }

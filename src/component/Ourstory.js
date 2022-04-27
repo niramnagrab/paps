@@ -42,6 +42,7 @@ const OurStory = () => {
           <div className="weapons">
               <img src={Weapons} alt="" />
             </div>
+            <div className="gradientBottom"></div>
       </section>
     </>
   )
